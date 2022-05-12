@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
 body {
     background-color: rgb(162, 247, 162);
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 , h2 {
+    font-family: sofia , 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -35,9 +41,6 @@ nav a {
     color: black;
 }
 
-h1 {
-
-}
 
 #home {
     height: 80vh;
