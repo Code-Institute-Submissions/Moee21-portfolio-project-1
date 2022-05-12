@@ -5,35 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-    <title>Hello World</title>
+    <title>Cut The Fat!</title>
 </head>
 <body>
     <header id="home">
+       <div class="home-text">
         <h1> Cut the Fat!</h1>
         <p>It does not matter how slowly you go, as long as you do not stop!</p>
+       </div> 
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home </a></li>
-            <li><a href="about-us">About Us</a></li>   
-            <li><a href="classes">Classes</a></li>    
-            <li><a href="contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section>
-      <h1 id="about-us">About us</h1>
-      <h3>Welcome to Cut The Fat!</h3>
-      <p>Cut The Fat! is a professional platform. Here we will provide you only interesting content, which you will like very much. we are dedicated to providing you the best of class, with focus on dependability and weight loss class.</p>
-      <p>We are working to turn our passion for class into a booming online website. we hope you enjoy our class as much as we enjoy offering them to you.</p>  
-    </section>
+   
+    <div id="nav-header" class="header">
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home </a></li>
+                        <li><a href="#about-us">About Us</a></li>   
+                        <li><a href="#classes">Classes</a></li>    
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+           
+    </div>
+        
 
     <section>
-        <h2 id="classes">Our classes</h2>
-        <p>our courses give you the motivation and guidance to make a true lifestyle change.</p>
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome To Cut The Fat!</p>
+            <p>Cut The Fat! is a professional platform. Here we will provide you only interesting content, which you will like very much. we are dedicated to providing you the best of class, with focus on dependability and weight loss class.
+                We are working to turn our passion for fit into a booming training classes. we hope you enjoy our class as much as we enjoy offering them to you.</p>
+        </div>
+    </section>
+   
+    <section id="classes">
+        <div class="classes-text"> 
+            <h2>Our classes</h2>
+            <p>our courses give you the motivation and guidance to make a true lifestyle change.</p>
+        </div>
+    
+        <div class="row">
+           <div class="column">
+                <img src="../img/joga-class.jpg" alt="" >
+            </div>
+            <div class="column">
+                <img src="../img/training-class.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="../img/training.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="../img/pexels-pavel-danilyuk-6339488.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="../img/work-out.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="../img/out-door-workout.jpg" alt="">
+            </div>
+        </div>
     </section>
     
-    <section>
-        <h2 id="contact">Contact Us</h2>
+    <section id="contact">
+        <h2 >Contact Us</h2>
+        <div class="form-container">
+            <form>
+                <label for="fname">First Name:</label>
+                <input type="text" name="firstname" id="fname" placeholder="Your First Name" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lastname" placeholder="Your Last Name" id="lname">
+
+                <label for="email-field">Your Email:</label>
+                <input type="email" name="email" placeholder="Your Email" id="email-field" required>
+
+                <label for="subject">Subject:</label>
+                <textarea id="subject" rows="10" cols="50" placeholder="Write Your Subject"></textarea>
+
+                <input type="submit" value="submit">
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -41,6 +93,7 @@
         <a href="https://www.facebook.com" rel="noopener" target="_blank" aria-label="Follow us on Facebook (link opens in a new tab">Facebook</a>
         <a href="https://www.twitter.com" rel="noopener" target="_blank" aria-label="Follow us on Twitter (link opens in a new tab">Twitter</a>
         <a href="https://www.instagram.com" rel="noopener" target="_blank" aria-label="Follow us on Instagram (link opens in a new tab">Instagram</a>
+        <p>&copy; Copyright Cut The Fat! 2022</p>
     </footer>
 </body>
 </html>
