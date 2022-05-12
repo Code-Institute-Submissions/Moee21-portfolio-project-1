@@ -59,6 +59,8 @@ h1 {
 .home-text {
     position: absolute;
     background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    color: aquamarine;
 }
 
 .about-section {
