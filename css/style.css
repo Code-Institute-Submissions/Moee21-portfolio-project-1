@@ -102,6 +102,7 @@ input[type=text] , input[type=email] , textarea {
     box-sizing: border-box;
 }
 
+/* used w3schools.com as a reference to debugged .row and .column */
 .row {
     display: flex;
     padding: 0 3px;
@@ -151,11 +152,7 @@ input[type=text] , input[type=email] , textarea {
 }
     
 
- 
-
-
-
-footer {
+ footer {
     background-color: rgb(241, 160, 11);
     text-align: center;
     width: 100%;
