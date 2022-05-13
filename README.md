@@ -1,108 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cut The Fat!
+Cut The Fat! offers a different group fitness class types with a good nutrition plan in Angered, Sweden. 
+The site will be targeted those who are looking to lose weight and burn the fat to be fitter and healthier. and they find all the information they need to know about Cut The Fat! starting from us, type of classes, and contact information.
 
-Welcome Moee21,
+Welcome! https://moee21.github.io/portfolio-project-1/
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# The Header
+The Header shows the name of the fitness classes, an amazing motivational qoute and a background image.
 
-## Gitpod Reminders
+# Navigation Bar
+The full responsive Navigation bar shows Home bage at the top left central of the page, next to it: About us, Classes and Contact us Form.
+All the sections allow the user to navigate from page to page across all devices except for one issue that is the header background image is not responsive which needs me to develop it.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# About Us Section
+About us shows the user the information they need to know and what they offer.
+more details will be added to this section.
 
-`python3 -m http.server`
+# Classes Section
+There are some picture of the fitness class types which needs me to add more details about the classes such as their times, coaches names.
 
-A blue button should appear to click: _Make Public_,
+# Contact Us
+The Contact us Form collects the user's first name, their last name, email and subject.
+The Subject feild allow the user to contact the fitness classes and write down their enquiries.
 
-Another blue button should appear to click: _Open Browser_.
+# Testing
+I confirm that the Header,Navigation, About us, Classes section and Contact us are all readable and easy to understand.
+I have confirmed that the Contact Us Form works: entries requires in every field and the submit button works.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Validator Testing
+#### HTML
+No error through the official W3C validator
+#### CSS
+passed the test through the official (Jigsaw) validator
 
-A blue button should appear to click: _Make Public_,
+# Bugs
+When i added  the Headers background's image, and check it, i discovered that there was no the image.
+I figured out that the image link was not correctly connecting to my CSS file and that was because i was forgetting to use the double dot which indicates the relative file path.
+background-image : url(../img/apple-or-donut.jpg);
 
-Another blue button should appear to click: _Open Browser_.
+# Deployment
+The site was deployed to Github pages. The steps to deploy are as follows:
+In the Github repository, navigate to the Settings tab.
+On the General Navigation bar, on the left-hand side, select pages and then source.
+From the Source section drop-down menue, select The main Branch.
+Once the master branch has been selected, the page provided the link to the completed website.
+The Live link can be found here: https://moee21.github.io/portfolio-project-1/
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Credits
+## Content
+The quotes on the Header's background is by Confucius.
+The text for the about us is from blogearns.com.
+Instructions on how to implement media query was from https://w3schools.com .
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Media
+All images and photos used on the Header's background and on classes section are from https://www.pexels.com/
