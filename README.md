@@ -1,43 +1,64 @@
 # Cut The Fat!
-Cut The Fat! offers a different group fitness class types with a good nutrition plan in Angered, Sweden. 
-The site will be targeted those who are looking to lose weight and burn the fat to be fitter and healthier. and they find all the information they need to know about Cut The Fat! starting from us, type of classes, and contact information.
+Cut The Fat! offers different group fitness class types with a good nutrition plan in Angered, Sweden. 
+The site will target those looking to lose weight and burn fat to be fitter and healthier, And they will find all the information they need to know about Cut The Fat! starting from us, type of classes, and contact information.
+
+<img src="assets/img/ScreenshotLaptopSize.png">
+
+<img src="assets/img/ScreenshotMobileSize.png">
+
+<img src="assets/img/ScreenshotIpodAirSize.png">
+
 
 Welcome! https://moee21.github.io/portfolio-project-1/
 
 # Features
 
 # The Header
-The Header shows the name of the fitness classes, an amazing motivational qoute and a background image.
+The Header shows the name of the fitness classes, an excellent motivational quote, and a background image.
+
+<img src="assets/img/ScreenshotLaptopSize.png">
+
 
 # Navigation Bar
-The full responsive Navigation bar shows Home bage at the top left central of the page, next to it: About us, Classes and Contact us Form.
-All the sections allow the user to navigate from page to page across all devices except for one issue that is the header background image is not responsive which needs me to develop it.
+The full responsive Navigation bar shows the Home page at the top left center of the page, next to it: About us, Classes, and Contact us Form.
+All the sections allow the user to navigate from page to page across all devices.
 
 # About Us Section
-About us shows the user the information they need to know and what they offer.
-more details will be added to this section.
+About us shows the user the information they need and what they offer.
 
+<img src="assets/img/AboutUsScreenShot.png">
 # Classes Section
-There are some picture of the fitness class types which needs me to add more details about the classes such as their times, coaches names.
+The Classes Section will provide the user with supporting images to see what the meet-ups look like.
 
+
+<img src="assets/img/ClassesScreenshot.png">
 # Contact Us
-The Contact us Form collects the user's first name, their last name, email and subject.
-The Subject feild allow the user to contact the fitness classes and write down their enquiries.
+The Contact us Form collects the user's first name, last name, email, and subject.
+The Subject field allows users to contact fitness classes and write their inquiries.
+
+<img src="assets/img/ContactScreenshot.png">
 
 # Testing
-I confirm that the Header,Navigation, About us, Classes section and Contact us are all readable and easy to understand.
-I have confirmed that the Contact Us Form works: entries requires in every field and the submit button works.
+I confirm that the Header, Navigation, About us, Classes section, and Contact us are all readable and easy to understand.
+I have confirmed that the Contact Us Form works, entries require in every field, and the submit button works.
 
 # Validator Testing
 #### HTML
-No error through the official W3C validator
+No error through the official W3C validator.
 #### CSS
-passed the test through the official (Jigsaw) validator
+passed the test through the official (Jigsaw) validator.
+
+#### Accessibility 
+I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. 
+
+<img src="assets/img/ScreenshotLightHouse.png">
+
 
 # Bugs
-When i added  the Headers background's image, and check it, i discovered that there was no the image.
-I figured out that the image link was not correctly connecting to my CSS file and that was because i was forgetting to use the double dot which indicates the relative file path.
+When I added the Header background image and checked it, I discovered that there was no image.
+I figured out that the image link was not correctly connecting to my CSS file, and that was because I forgot to use the double dot, which indicates the relative file path.
 background-image : url(../img/apple-or-donut.jpg);
+
 
 # Deployment
 The site was deployed to Github pages. The steps to deploy are as follows:
