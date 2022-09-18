@@ -276,95 +276,10 @@ h1 , h2 {
     }
 }
 
-
-/*
-body {
-    background-color: rgb(162, 247, 162);
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h1 , h2 {
-    font-family: sofia , 'Times New Roman', Times, serif;
-}
-
-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(241, 160, 11);
-    text-align: center;
-    overflow: hidden;
-    
-}
-
-nav li {
-    font-size: 18px;
-    display: inline-block;
-    margin: 0.2%;
-    
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 14px 16px;
-  
-}
-
- nav a:hover {
-    
-    color: black;
-}
-
-
-#home {
-    height: 80vh;
-    width: 216vh;
-    background-image : url(../img/apple-or-donut.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    margin-top: -25px;  
-    padding-right: 16px;  
-    margin-left: 0px;
-}
-
-.home-text > p {
-    width: 100%;
-    font-weight: lighter;
-    
-}
-
-.home-text {
-    position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    padding: 20px;
-    color: aquamarine;
-}
-
-.about-section {
-    padding: 50px;
-    text-align: center;
-
-}
-
-.classes-text {
-    padding: 50px;
+/*------------------------------------------------------------------Contact Section*/
+#contact > h2 {
     text-align: center;
 }
-
-@media screen and (max-width: 950px) {
-    .about-section , .classes-text {
-       clear: both;
-       width: 100%;
-       padding: 0;
-    
-    }
-    
-}
-*/
 
 .form-container {
     background-color: rgb(249, 205, 124); 
@@ -381,10 +296,8 @@ input[type=text] , input[type=email] , textarea {
     box-sizing: border-box;
 }
 
-
-    
-
- footer {
+/*--------------------------------------------------------footer*/
+footer {
     background-color: rgb(241, 160, 11);
     text-align: center;
     width: 100%;
