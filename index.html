@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <title>Cut The Fat!</title>
 </head>
 <body>
-    <header id="home">
-       <div class="home-text">
-        <h1> Cut the Fat!</h1>
+    <header class="header">
+        <!--Logo-->
+        <a href="index.html" class="logo">CTF</a>
+        <!--Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!--Menu-->
+         <nav class="nav">
+            <ul class="menu">
+                <li><a href="#home" aria-label="Go to the top of the page">Home </a></li>
+                <li><a href="#about-us" aria-label="Go to about us section">About Us</a></li>   
+                <li><a href="#classes" aria-label="Go to our classes">Classes</a></li>    
+                <li><a href="#contact" aria-label="Go to contact section to fill up your information">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+    
+    <!--Home Section-->
+    <section id="home">
+        <h1> Welcome to Cut The Fat!</h1> 
         <!-- quotes by Confucius-->
         <p>It does not matter how slowly you go, as long as you do not stop!</p>
-       </div> 
-    </header>
-   
-    <div id="nav-header" class="header">
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="#home" aria-label="Go to the top of the page">Home </a></li>
-                        <li><a href="#about-us" aria-label="Go to about us section">About Us</a></li>   
-                        <li><a href="#classes" aria-label="Go to our classes">Classes</a></li>    
-                        <li><a href="#contact" aria-label="Go to contact section to fill up your information">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-           
-    </div>
-        
-
+        <button class="button button2">About Us</button>
+    </section>
+    
+    
     <section>
         <div class="about-section">
             <h2>About Us</h2>

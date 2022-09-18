@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+/* -----------------------------------------------------------------------------------------import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*---------------------------------------------remove the browser's default settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ------------------------------------------------------------Header*/
+.header {
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/*------------------------------------------------------------CTF Logo*/
+.logo {
+    display: inline-block;
+    color: black;
+    font-size: 70px;
+    margin-left: 10px;
+}
+/*------------------------------------------------------------Nav Menu*/
+.nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.menu a {
+    display: block;
+    padding: 30px;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: black;
+}
+
+.nav {
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+/*---------------------------------------------------------Menu Icon*/
+.hamb {
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+/*-------------------------------------------------------- Style label tag*/
+.hamb-line {
+    background: black;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+/*--------------------------------------------------------Style span tags*/
+.hamb-line::before, .hamb-line::after {
+    background: black;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hamb-line::before {
+    top: 5px;
+}
+
+.hamb-line::after {
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+}                  /*Hide checkbox*/
+
+/*-------------------------------------------------Toggle Menu Icon*/
+.side-menu:checked~nav {
+    max-height: 100%;
+}
+
+.side-menu:checked~.hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked~.hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu:checked~.hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+/*-----------------------------------------Header Responsivness*/
+@media (min-width: 768px) {
+    .nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu li {
+        float: left;
+    }
+    .menu a:hover {
+        background-color: transparent;
+        color: white;
+    }
+
+    .hamb {
+        display: none;
+    }
+}
+
+
+/*
+body {
+    background-color: rgb(162, 247, 162);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 , h2 {
+    font-family: sofia , 'Times New Roman', Times, serif;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 160, 11);
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+nav li {
+    font-size: 18px;
+    display: inline-block;
+    margin: 0.2%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+  
+}
+
+ nav a:hover {
+    
+    color: black;
+}
+
+
+#home {
+    height: 80vh;
+    width: 216vh;
+    background-image : url(../img/apple-or-donut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-top: -25px;  
+    padding-right: 16px;  
+    margin-left: 0px;
+}
+
+.home-text > p {
+    width: 100%;
+    font-weight: lighter;
+    
+}
+
+.home-text {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    color: aquamarine;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.classes-text {
+    padding: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+    .about-section , .classes-text {
+       clear: both;
+       width: 100%;
+       padding: 0;
+    
+    }
+    
+}
+*/
+
+.form-container {
+    background-color: rgb(249, 205, 124); 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input[type=text] , input[type=email] , textarea {
+    width: 100%;
+    margin-top: 5px;    
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+    
+
+ footer {
+    background-color: rgb(241, 160, 11);
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
